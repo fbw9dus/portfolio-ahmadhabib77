@@ -1,0 +1,172 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+}
+
+.circular--square {
+    display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+
+}
+
+
+.menu{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.menu>li{
+    color: white;
+    display: flex;
+    border-bottom: 2px solid white;
+    height: 50px;
+    align-items: center;
+    background: rgb(99, 39, 5);
+    padding-left: 15px;
+}
+
+#lebnslauf-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#lebenslauf{
+    margin-bottom: 100px;
+}
+#lebnslauf-menu>li{
+   
+    padding-bottom: 15px;
+}
+
+
+.MeinKontaktdaten{
+	padding-top: 80px;
+	border-bottom: 2px solid black;
+}
+.MeinKontaktdaten h1{
+	padding-top: 30px;
+   text-align: center;
+   font-size: 36px;
+   color: rgb(46, 20, 1)
+}
+
+#port{
+    margin-bottom: 100px;
+}
+
+#port img{
+      width: 350px;
+      height: 300px;
+      text-align: center;
+  }
+
+
+  
+#skills li {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      
+      
+  }
+
+#skills {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#skills ul{
+    padding-left: 10px;
+}
+
+#skills h3{
+    float: left;
+    width: 50px;
+    margin-bottom: 3px;
+}
+
+.pros{
+    background: white;
+    width: 350px;
+    height: 5px;
+    border: 1px solid rgba(0, 0 , 0 , 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #6b0416b3;
+}
+
+.pros div{
+    height: 5px;
+    float: left;
+    background: #6b0416b3;
+}
+
+.html{
+    width: 95%;
+    animation: html 2s;
+}
+
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+
+.java{
+    width: 20%;
+    animation: java 2s;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.log .fas{
+    width: 40px;
+    height: 40px;
+    background: #381c01af;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15%;
+    font-size: 50px;
+    margin: 15px 2px 15px 15px;
+}
+
+.log .fab{
+  width: 40px;
+    height: 40px;
+    background: #381c01af;
+    color: rgb(63, 22, 3);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15%;
+    font-size: 50px;
+    margin: 15px 2px 15px 15px;
+}
+
+.log h4{
+    padding: 10px 10px 10px 5px;
+    margin:  10px 10px 10px 5px;
+    width: 50px;
+}
+.log div{
+   display: flex;
+   flex-direction: row;
+}
